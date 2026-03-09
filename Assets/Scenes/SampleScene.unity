@@ -432,8 +432,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b85ace5e990284f4e9b18a992b783f54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::EnemyPatrol
-  speed: 2
-  distance: 4
+  speed: 1
+  distance: 6
 --- !u!82 &426517497
 AudioSource:
   m_ObjectHideFlags: 0
@@ -447,7 +447,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: b2df1323f461a974b83c530b41f47749, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.476
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -602,11 +602,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c9c1b39716968114da6113735d69511b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.52
+      value: -1.8
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c9c1b39716968114da6113735d69511b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.67
+      value: 2.6
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c9c1b39716968114da6113735d69511b, type: 3}
       propertyPath: m_LocalPosition.z
@@ -694,7 +694,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 0a6099513d7e45a46bb7d813c4da0ed6, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.317
   m_Pitch: 1
   Loop: 1
   Mute: 0
